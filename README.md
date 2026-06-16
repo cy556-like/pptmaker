@@ -10,22 +10,6 @@
 
 3、技能自动更新机制：如果我更新了可选用的PPT模板，使用技能时会自动更新技能。技能像软件一样可以更新
 
-## 效果展示
-
-以下是用本 Skill 生成的实际页面（信息密度高、排版复杂、商务质感）：
-
-<p align="center">
-  <img src="./assets/showcase-1.jpg" alt="效果展示 1 - 战略定位分析" width="720" />
-</p>
-
-<p align="center">
-  <img src="./assets/showcase-2.jpg" alt="效果展示 2 - 价值冰山模型" width="720" />
-</p>
-
-<p align="center">
-  <img src="./assets/showcase-3.jpg" alt="效果展示 3 - 产品化闭环" width="720" />
-</p>
-
 ## 使用方法
 极其简单，把这段提示词发给你的Agent即可：
 
@@ -86,11 +70,4 @@ manifest.json    # 每文件版本 + sha256
 scripts/         # 5 个面向使用者的脚本（build / render / update / manifest）
 references/      # 编辑规则、Schema、工作流参考
 templates/       # 17 个模板（每个 4 文件）
-```
 
-## 致谢与版权
-
-- 本仓库没有PPT模板的版权
-- **禁止任何二次分发 / 商业使用**
-- 用到的开源工具：[LibreOffice](https://www.libreoffice.org/)、[python-pptx](https://python-pptx.readthedocs.io/)、[Poppler](https://poppler.freedesktop.org/)、[WenQuanYi Micro Hei](http://wenq.org/)
-- 感谢 [LinuxDO](https://linux.do) 社区的支持
